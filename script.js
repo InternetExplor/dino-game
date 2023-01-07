@@ -9,7 +9,7 @@ setInterval(() => {
     secunds.innerHTML = parseInt(i + parseInt(secunds.innerHTML)) 
 }, 1000);
 
-document.addEventListener("keydown", function(){
+document.addEventListener("click", function(){
     jump()
 })
 
