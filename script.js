@@ -13,14 +13,14 @@ document.addEventListener("click", function(){
     jump()
 })
 
-function jump() {
+const jump = ()=> {
     
 
     if(dino.classList != "jump"){
         dino.classList.add("jump")
         
     }
-    setTimeout(function(){
+    setTimeout(()=>{
         dino.classList.remove("jump")
     }, 557)
     
